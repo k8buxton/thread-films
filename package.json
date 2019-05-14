@@ -1,5 +1,5 @@
 {
-  "name": "thread-films",
+  "name": "thread_films_demo",
   "private": true,
   "dependencies": {
     "@rails/webpacker": "^4.0.2",
