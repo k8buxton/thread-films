@@ -1,0 +1,12 @@
+<div class="container full-screen-height">
+  <div class="text-container-home-top">
+    <div>
+      <% flash.each do |key, value| %>
+        <div>
+          <a href="#" data-dismiss="alert">×</a>
+            <%= value %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
