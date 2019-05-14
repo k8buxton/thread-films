@@ -1,2 +1,93 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="hero-video">
+  <div class="player">
+    <video class="player__video" id="video_home" loop="true" autoplay muted>
+      <source id="video-source" data-src="https://res.cloudinary.com/dr4puwvdp/video/upload/v1557758039/Surfer_-_13772_nttxbk.mp4" type="video/mp4">
+    </video>
+    <h1 id="thread-strapline">Thread Films <span>IS A FILM PRODUCTION COMPANY FOUNDED BY BAFTA LONG-LISTED DOCUMENTARY MAKER MAURICIO GRIS.</span></h1>
+    <div class="video-logo-holder">
+      <div class="volume-toggle">
+        <i class="fas fa-volume-mute volume-logo hidden" id="volume_on"></i>
+        <i class="fas fa-volume-up volume-logo" id="volume_off"></i>
+      </div>
+      <a target="_blank" href="https://vimeo.com/199984319">
+        <img class="video-text" src="/assets/video-link.png" />
+      </a>
+    </div>
+  </div>
+</div>
+<div class="container full-screen-height">
+  <div class="text-container-home-top">
+    <h3 class="mt-4" style="font-weight: 100; font-size: 24px;">We create everything from one minute hype reels to hour long conflict zone documentaries.</h3>
+    <h3 class="mt-4" style="font-weight: 100; font-size: 24px;">Our founders' film work and journalism have featured on all major UK Broadcasters as well as Netflix. Other commercial clients include AIG, The Royal Foundation, Fondazione Prada, and Fusion Media.</h3>
+    <h3 class="mt-4" style="font-weight: 100; font-size: 24px;">Our charitable focus is helping veterans tell their stories and disaster relief.</h3>
+    <h3 class="mt-5" style="font-weight: 800; font-size: 14px;">PLEASE SCROLL DOWN FOR OUR LATEST PROJECTS.</h3>
+    <i class="fas fa-chevron-down" style="font-size: 14px; font-weight: 800;"></i>
+  </div>
+</div>
+<a href="https://vimeo.com/199984319" target="_blank">
+  <div class="project-container project-container-surf">
+    <div class="project-text-container">
+      <h3 class="project-title">ENDEAVOUR FUND</h3>
+      <h3 class="project-strapline">Operation Surf</h3>
+      <h3 class="project-link">WATCH FILM + LEARN MORE <i class="fas fa-chevron-right"></i></h3>
+    </div>
+  </div>
+</a>
+<a href="https://vimeo.com/321825185" target="_blank">
+  <div class="project-container project-container-AIG">
+    <div class="project-text-container">
+      <h3 class="project-title">AIG</h3>
+      <h3 class="project-strapline">2019 Volunteer Hype</h3>
+      <h3 class="project-link">WATCH FILM + LEARN MORE <i class="fas fa-chevron-right"></i></h3>
+    </div>
+  </div>
+</a>
+<a href="https://vimeo.com/321822610" target="_blank">
+  <div class="project-container project-container-legion1">
+    <div class="project-text-container">
+      <h3 class="project-title">ROYAL BRITISH LEGION</h3>
+      <h3 class="project-strapline">Armed Forces Day Campaign</h3>
+      <h3 class="project-link">WATCH FILM + LEARN MORE <i class="fas fa-chevron-right"></i></h3>
+    </div>
+  </div>
+</a>
+<a href="https://vimeo.com/323698674" target="_blank">
+  <div class="project-container project-container-legion2">
+    <div class="project-text-container">
+      <h3 class="project-title">ROYAL BRITISH LEGION CENTENARY CELEBRATIONS</h3>
+      <h3 class="project-strapline">England Football Team Remembers</h3>
+      <h3 class="project-link">WATCH FILM + LEARN MORE <i class="fas fa-chevron-right"></i></h3>
+    </div>
+  </div>
+</a>
+
+
+<script>
+
+  const video = document.getElementById("video_home");
+  const volumeOn = document.getElementById("volume_on");
+  const volumeOff = document.getElementById("volume_off");
+  const vid = document.getElementById("video_home");
+
+  const width = window.screen.width
+  const src = document.getElementById("video-source").getAttribute('data-src')
+  if (width > 900) {
+    vid.setAttribute('src', src)
+  }
+  volumeOff.addEventListener('click', function() {
+    volumeOn.classList.toggle("hidden");
+    volumeOff.classList.toggle("hidden");
+    video.muted = false;
+  });
+
+  volumeOn.addEventListener('click', function() {
+    volumeOn.classList.toggle("hidden");
+    volumeOff.classList.toggle("hidden");
+    video.muted = true;
+  });
+
+  vid.onloadeddata = function() {
+    vid.style.opacity = 1
+  };
+
+</script>

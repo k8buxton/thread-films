@@ -1,1 +1,116 @@
-// Specific CSS for your home-page
+.container {
+  min-width: 100%;
+  margin: 0;
+  justify-content: left;
+  align-items: center;
+  background-repeat: no-repeat;
+  // background-attachment: fixed;
+  background-size: cover !important;
+  display: flex;
+  color: white;
+}
+.container-seaside {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/1048273/pexels-photo-1048273.jpeg?cs=srgb&dl=coast-evening-horizon-1048273.jpg&fm=jpg");
+}
+.container-city {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?cs=srgb&dl=aerial-architectural-design-architecture-373912.jpg&fm=jpg");
+}
+.container-jungle {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/788200/pexels-photo-788200.jpeg?cs=srgb&dl=asia-cascade-clean-788200.jpg&fm=jpg");
+}
+.full-screen-height {
+  height: 150vh;
+  background-color: black;
+}
+.text-container-home-top {
+  margin: auto 48px;
+  width: 70%;
+}
+  .text-container-home-top h2 {
+  }
+  .text-container-home-top p {
+    margin: 30px 0px;
+    line-height: 32px;
+    font-size: 15px;
+    font-weight: 100;
+    max-width: 75%;
+    letter-spacing: 0.5px;
+  }
+
+#thread-strapline {
+  top: 47%;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  position: inherit;
+  width: 75%;
+}
+#thread-strapline span {
+  font-weight: 200;
+  font-size: 30px;
+  opacity: 1;
+  font-family: 'Montserrat', sans-serif;
+}
+.project-container {
+  height: 65vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  color: white;
+  margin: 8px;
+}
+.project-container-surf {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dr4puwvdp/image/upload/v1557762867/Screen_Shot_2019-05-13_at_14.35.11_zpga3y.png");
+}
+.project-container-surf:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dr4puwvdp/image/upload/v1557762867/Screen_Shot_2019-05-13_at_14.35.11_zpga3y.png");
+  cursor: pointer;
+}
+.project-container-AIG {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dr4puwvdp/image/upload/v1557764832/Screen_Shot_2019-05-13_at_14.36.01_zzfn3z.png");
+}
+.project-container-AIG:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dr4puwvdp/image/upload/v1557764832/Screen_Shot_2019-05-13_at_14.36.01_zzfn3z.png");
+  cursor: pointer;
+}
+.project-container-legion1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dr4puwvdp/image/upload/v1557764831/Screen_Shot_2019-05-13_at_14.35.51_u1alr3.png");
+}
+.project-container-legion1:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dr4puwvdp/image/upload/v1557764831/Screen_Shot_2019-05-13_at_14.35.51_u1alr3.png");
+  cursor: pointer;
+}
+.project-container-legion2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dr4puwvdp/image/upload/v1557764833/Screen_Shot_2019-05-13_at_14.35.25_yrqhkj.png");
+}
+.project-container-legion2:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dr4puwvdp/image/upload/v1557764833/Screen_Shot_2019-05-13_at_14.35.25_yrqhkj.png");
+  cursor: pointer;
+}
+.project-text-container {
+  margin: auto 40% 32px 32px;
+}
+.project-title {
+  font-size: 24px;
+  font-weight: 800;
+}
+.project-strapline {
+  font-size: 24px;
+  font-weight: 100;
+  margin-top: 20px;
+}
+.project-link {
+  font-size: 13.75px;
+  margin-top: 20px;
+  font-weight: 800;
+  opacity: 0;
+  transition: ease 1s;
+
+}
+.project-container:hover .project-link {
+  opacity: 1;
+  font-size: 14px;
+}
+a:hover {
+  text-decoration: none;
+}
+
