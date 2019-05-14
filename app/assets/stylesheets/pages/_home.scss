@@ -27,7 +27,12 @@
     max-width: 75%;
     letter-spacing: 0.5px;
   }
-
+  .text-container-home-top a {
+    color: white;
+  }
+  .text-container-home-top a:hover {
+    color: #798491;
+  }
 #thread-strapline {
   top: 47%;
   font-size: 30px;
