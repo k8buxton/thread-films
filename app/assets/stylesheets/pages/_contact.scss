@@ -7,9 +7,9 @@
   color: white;
 }
   .contact-container h2 {
-      font-size: 30px;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 800;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
   }
 .hidden {
   display: none;
@@ -38,4 +38,9 @@
   color: #468847;
   text-align: left;
 }
-
+#margin-contact {
+  margin: 65% 48px 35% 48px;
+}
+.form-control-label {
+  font-weight: 100;
+}

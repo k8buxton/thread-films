@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   // background-attachment: fixed;
   background-size: cover !important;
-  display: flex;
+  // display: flex;
   color: white;
   padding: 0;
 }
@@ -30,6 +30,7 @@
   }
   .text-container-home-top a {
     color: white;
+    transition: color .3s ease-out;
   }
   .text-container-home-top a:hover {
     color: #798491;

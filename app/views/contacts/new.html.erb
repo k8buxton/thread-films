@@ -1,5 +1,5 @@
-<div class="container" style="height: 100vh; background-color: black;">
-  <div class="text-container-home-top">
+<div class="container d-flex" style="height: 100vh; background-color: black;">
+  <div class="text-container-home-top" id="margin-contact">
     <h1 id="thread-strapline">GET IN TOUCH</h1>
     <h3 class="my-5" style="font-weight: 100; font-size: 24px;">We'd love to hear from you.</h3>
     <p class="m-0">Phone // +44 (0)20 7000 000</hp>
@@ -11,8 +11,8 @@
 <div class="contact-container justify-content-center">
   <div class="row justify-content-center w-100">
     <div class="col-6 col-lg-4">
-      <!-- <h2 class="text-center my-5">SEND US A MESSAGE</h2> -->
-      <h3 class="text-center my-5" style="font-weight: 100; font-size: 24px;">Or send us a message.</h3>
+      <h2 class="text-center my-5">OR SEND US A MESSAGE.</h2>
+      <!-- <h3 class="text-center my-5" style="font-weight: 100; font-size: 24px;">Or send us a message.</h3> -->
       <%= simple_form_for @contact, :html => {:class => 'form-horizontal' } do |f| %>
         <%= f.input :name, :required => true %>
         <%= f.input :email, :required => true %>
@@ -22,7 +22,7 @@
         </div>
         <div>
           </br>
-          <%= f.button :submit, 'Send message', :class=> "btn w-100 contact-button" %>
+          <%= f.button :submit, 'SEND MESSAGE', :class=> "btn w-100 contact-button" %>
         </div>
       <% end %>
     </div>
