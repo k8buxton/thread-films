@@ -1,0 +1,29 @@
+body {
+  background-color:black;
+}
+#instagram {
+  // width: 100%;
+  // position:relative;
+}
+#instafeed li {
+  max-width: 33%;
+  list-style:none;
+  float:left;
+  margin:0;
+  padding: 12px;
+  display:inline;
+  overflow:hidden;
+}
+#instafeed a {
+  float: left;
+  display:inline-block;
+  position: relative;
+}
+#instafeed img {
+  display:inline-block;
+  width:100%;
+  height:100%;
+  opacity:0.9;
+  filter: alpha(opacity=90);
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}

@@ -1,16 +1,19 @@
+.nav-logo {
+  position: fixed;
+  top: 40px;
+  left: 40px;
+  z-index: 6;
+}
 body {
   background-color: white;
   font-family: Montserrat;
   h1 {
-    position: fixed;
-    top: 40px;
-    left: 40px;
-    z-index: 6;
     font-size: 20px;
     font-weight: 800;
     font-family: sans-serif;
     text-transform: uppercase;
     color: white;
+    font-family: Montserrat;
     > span {
       text-transform: none;
       opacity: .5;

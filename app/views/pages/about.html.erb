@@ -1,12 +1,14 @@
-<div class="container full-screen-height">
+<div class="container d-flex" style="background-color: black; padding-top: 25%;">
   <div class="text-container-home-top">
     <h1 id="thread-strapline">About Us</h1>
     <h3 class="mt-4" style="font-weight: 100; font-size: 24px;">We love stories in any format, but our first love will always be the moving image. It is the medium which we believe has the strongest capacity to move people and make a difference in the way something or someone is viewed.</h3>
     <h3 class="mt-4" style="font-weight: 100; font-size: 24px;">Since my first taste of filmmaking at a New York Film Academy Summer School, through my time in the Combat Camera Team to now, as a freelance Filmmaker I have loved the process and result. </h3>
   </div>
+  <img style="width: 300px; height: 500px; object-fit: cover; align-self: flex-start;padding-top: 65px;" src="https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
 </div>
 
-<div class="container full-screen-height">
+<div class="container d-flex" style="background-color: black; padding-top: 40%;">
+  <img style="width: 300px; height: 500px; object-fit: cover; align-self: flex-start;padding-top: 65px;" src="https://images.pexels.com/photos/697243/pexels-photo-697243.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
   <div class="text-container-home-top">
     <h1 id="thread-strapline">MAURICIO GRIS</h1>
     <h3 class="mt-4" style="font-weight: 100; font-size: 24px;">Co-founder, and Director, Producer and Multi-media Journalist.</h3>
@@ -25,7 +27,28 @@
 </div>
 
 
+<h1 id="thread-strapline" style="margin: 100px 0px 48px 48px;">INSTAGRAM</h1>
+<div id="instafeed" style="width: 70%">
+</div>
 
+
+<script src='http://matthewelsom.com/assets/js/libs/instafeed.min.js'></script>
+
+<script type='text/javascript'>
+  var userFeed = new Instafeed({
+    get: "user",
+    userId: "331881671",
+    clientId: "184fd925649945b2b83c467b127826d9",
+    accessToken: "331881671.184fd92.1e100afdcd404d448aea1f87b9b6ec1b",
+    resolution: "standard_resolution",
+    // limit: "6",
+    template:
+      '<div class="instagram"><li><a href="{{link}}" target="_blank"><img src="{{image}}" /><div class=""></div></a></li></div>',
+    sortBy: "most-recent",
+    links: true
+  });
+  userFeed.run();
+</script>
 
 
 
