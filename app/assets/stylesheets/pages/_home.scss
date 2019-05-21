@@ -57,31 +57,31 @@
   margin: 8px;
 }
 .project-container-surf {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dr4puwvdp/image/upload/v1557762867/Screen_Shot_2019-05-13_at_14.35.11_zpga3y.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1558371781/Screen_Shot_2019-05-13_at_14.35.11_zpga3y_ronfvf.png");
 }
 .project-container-surf:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dr4puwvdp/image/upload/v1557762867/Screen_Shot_2019-05-13_at_14.35.11_zpga3y.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1558371781/Screen_Shot_2019-05-13_at_14.35.11_zpga3y_ronfvf.png");
   cursor: pointer;
 }
 .project-container-AIG {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dr4puwvdp/image/upload/v1557764832/Screen_Shot_2019-05-13_at_14.36.01_zzfn3z.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1558371785/Screen_Shot_2019-05-13_at_14.36.01_zzfn3z_btiim9.png");
 }
 .project-container-AIG:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dr4puwvdp/image/upload/v1557764832/Screen_Shot_2019-05-13_at_14.36.01_zzfn3z.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1558371785/Screen_Shot_2019-05-13_at_14.36.01_zzfn3z_btiim9.png");
   cursor: pointer;
 }
 .project-container-legion1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dr4puwvdp/image/upload/v1557764831/Screen_Shot_2019-05-13_at_14.35.51_u1alr3.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1558371784/Screen_Shot_2019-05-13_at_14.35.51_u1alr3_xradx7.png");
 }
 .project-container-legion1:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dr4puwvdp/image/upload/v1557764831/Screen_Shot_2019-05-13_at_14.35.51_u1alr3.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1558371784/Screen_Shot_2019-05-13_at_14.35.51_u1alr3_xradx7.png");
   cursor: pointer;
 }
 .project-container-legion2 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dr4puwvdp/image/upload/v1557764833/Screen_Shot_2019-05-13_at_14.35.25_yrqhkj.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1558371783/Screen_Shot_2019-05-13_at_14.35.25_yrqhkj_tsdv7s.png");
 }
 .project-container-legion2:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dr4puwvdp/image/upload/v1557764833/Screen_Shot_2019-05-13_at_14.35.25_yrqhkj.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1558371783/Screen_Shot_2019-05-13_at_14.35.25_yrqhkj_tsdv7s.png");
   cursor: pointer;
 }
 .project-text-container {
@@ -102,7 +102,6 @@
   font-weight: 800;
   opacity: 0;
   transition: ease 1s;
-
 }
 .project-container:hover .project-link {
   opacity: 1;
@@ -111,4 +110,3 @@
 a:hover {
   text-decoration: none;
 }
-
