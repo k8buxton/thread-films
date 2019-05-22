@@ -39,7 +39,12 @@ body {
     color: #798491;
   }
 #thread-strapline {
-  top: 47%;
+  @media (max-width: 576px) {
+    top: 35%;
+  }
+  @media (min-width: 576px) {
+    top: 47%;
+  }
   font-size: 30px;
   font-family: 'Montserrat', sans-serif;
   position: inherit;
@@ -103,9 +108,11 @@ body {
   font-size: 13.75px;
   margin-top: 20px;
   font-weight: 800;
-  opacity: 0;
   transition: ease 1s;
   color: white;
+  @media (max-width: 576px) {
+    opacity: 1;
+  }
 }
 .project-container:hover .project-link {
   opacity: 1;
