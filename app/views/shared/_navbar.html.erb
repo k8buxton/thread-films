@@ -10,12 +10,11 @@
     <span></span>
 </label>
 
-<nav class="navbar-transparent">
+<nav <% if current_page?(root_path) %>class="navbar-transparent"<% else %>class="navbar-black"<% end %>>
   <ul>
 
     <li><a href="/">Portfolio</a></li>
     <li><a href="/about">About Us + Our Clients</a></li>
-    <li><a href="#">Blog</a></li>
     <li><a href="/contacts/new">Contact Us</a></li>
   </ul>
 </nav>
