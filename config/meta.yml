@@ -1,0 +1,5 @@
+meta_product_name: "Thread Films"
+meta_title: "Thread Films - Production Company London"
+meta_description: "At the heart of our work lies our passion for creating video content that drives positive social change and makes the world a better place."
+meta_image: "thread_meta.png" # should exist in `app/assets/images/`
+# twitter_account: "@product_twitter_account"   # required for Twitter Cards
