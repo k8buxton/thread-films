@@ -71,7 +71,6 @@ body {
 .project-container {
   height: 65vh;
   background-size: cover;
-  background-position: center;
   position: relative;
   color: white;
   margin: 8px;
@@ -80,6 +79,7 @@ body {
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559202100/Op_Surf_Still_copy_nrcafm.png");
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559202100/Op_Surf_Still_copy_nrcafm.png");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559202100/Op_Surf_Still_copy_nrcafm.png");
+  background-position: center;
   &:hover {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559202100/Op_Surf_Still_copy_nrcafm.png");
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559202100/Op_Surf_Still_copy_nrcafm.png");
@@ -91,7 +91,7 @@ body {
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559202101/AIG_still_2_copy_svyanb.png");
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559202101/AIG_still_2_copy_svyanb.png");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559202101/AIG_still_2_copy_svyanb.png");
-
+  background-position: center;
   &:hover {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559202101/AIG_still_2_copy_svyanb.png");
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559202101/AIG_still_2_copy_svyanb.png");
@@ -103,6 +103,7 @@ body {
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559200954/RBl_Sugar_Still_eravav.png");
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559200954/RBl_Sugar_Still_eravav.png");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559200954/RBl_Sugar_Still_eravav.png");
+  background-position: center;
   &:hover {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559200954/RBl_Sugar_Still_eravav.png");
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559200954/RBl_Sugar_Still_eravav.png");
@@ -114,6 +115,7 @@ body {
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559202103/RBL_Football_still_copy_j9395l.png");
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559202103/RBL_Football_still_copy_j9395l.png");
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559202103/RBL_Football_still_copy_j9395l.png");
+  background-position: top;
   &:hover {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559202103/RBL_Football_still_copy_j9395l.png");
     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559202103/RBL_Football_still_copy_j9395l.png");
