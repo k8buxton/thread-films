@@ -1,23 +1,25 @@
 .show-page-container {
   height: 60vh;
   background-size: cover;
-  background-position: center;
   display: flex;
   color: white;
   margin-top: 100px;
 }
 .surf {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1558371781/Screen_Shot_2019-05-13_at_14.35.11_zpga3y_ronfvf.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559202100/Op_Surf_Still_copy_nrcafm.png");
+  background-position: center;
 }
 .aig {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1558620702/Screen_Shot_2019-05-23_at_15.11.14_nzsfct.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559202101/AIG_still_2_copy_svyanb.png");
+  background-position: center;
 }
 .forces {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1558371784/Screen_Shot_2019-05-13_at_14.35.51_u1alr3_xradx7.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559200954/RBl_Sugar_Still_eravav.png");
+  background-position: center;
 }
 .football {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1558371783/Screen_Shot_2019-05-13_at_14.35.25_yrqhkj_tsdv7s.png");
-
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559202103/RBL_Football_still_copy_j9395l.png");
+  background-position: top;
 }
 .show-title {
   font-size: 32px;
