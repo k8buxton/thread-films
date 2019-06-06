@@ -12,7 +12,7 @@
   .footer p {
     font-size: 12px;
     font-weight: 100;
-    margin: 36px 0 0 0;
+    margin: 0;
     opacity: 0.3;
   }
   .footer span {
@@ -31,6 +31,10 @@
   }
 .footer-black {
   background-color: black;
+}
+.footer-sub {
+  width: 75vh;
+  margin: 16px auto;
 }
 .footer-grey {
   background-color: #798491;
