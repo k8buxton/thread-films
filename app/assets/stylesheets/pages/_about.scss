@@ -13,6 +13,12 @@
     background-image: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.8) 100%), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559143559/Mauricio_Gris_dtd9ca.jpg");
   }
 }
+.alex-photo {
+  background-image: linear-gradient(90deg, rgba(0,0,0,0.82) 0%, rgba(0,0,0,0.3) 100%), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559836453/20190605_alex_headshot_website_1_cw1pgz.jpg");
+  &:hover {
+    background-image: linear-gradient(90deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 100%), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559836453/20190605_alex_headshot_website_1_cw1pgz.jpg");
+  }
+}
 .about-container img {
   width: 300px;
   height: 500px;
@@ -47,14 +53,19 @@
 a:hover {
   text-decoration: none;
 }
-.mau-container {
-  margin: auto 32px 0px 50%;
+.photo-container {
   color: white;
   p {
     font-size: 15px;
     font-weight: 100;
     line-height: 28px;
   }
+}
+.mau-container {
+  margin: auto 32px 0px 50%;
+}
+.alex-container {
+  margin: auto 50% 0px 32px;
 }
 .mau-heading {
   font-weight: 800;
