@@ -9,15 +9,9 @@
 }
 .mau-photo {
   background-image: linear-gradient(90deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559143559/Mauricio_Gris_dtd9ca.jpg");
-  &:hover {
-    background-image: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.8) 100%), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559143559/Mauricio_Gris_dtd9ca.jpg");
-  }
 }
 .alex-photo {
   background-image: linear-gradient(90deg, rgba(0,0,0,0.82) 0%, rgba(0,0,0,0.3) 100%), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559836453/20190605_alex_headshot_website_1_cw1pgz.jpg");
-  &:hover {
-    background-image: linear-gradient(90deg, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 100%), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559836453/20190605_alex_headshot_website_1_cw1pgz.jpg");
-  }
 }
 .about-container img {
   width: 300px;
