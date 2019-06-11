@@ -52,17 +52,19 @@ body {
   }
 #thread-strapline {
   @media (max-width: 576px) {
-    top: 35%;
+    font-size: 24px;
   }
-  @media (min-width: 576px) {
-    top: 47%;
-  }
+  margin: auto 0;
   font-size: 30px;
   font-family: 'Montserrat', sans-serif;
   position: inherit;
   width: 75%;
 }
 #thread-strapline span {
+  @media (max-width: 576px) {
+    font-size: 24px;
+  }
+  margin: auto 0;
   font-weight: 200;
   font-size: 30px;
   opacity: 1;
