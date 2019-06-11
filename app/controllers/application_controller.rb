@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::Base
   def default_url_options
-    { host: ENV["DOMAIN"] || "https://thread-films.herokuapp.com/" }
+    { host: ENV["DOMAIN"] || "http://www.threadfilms.co" }
   end
 end
