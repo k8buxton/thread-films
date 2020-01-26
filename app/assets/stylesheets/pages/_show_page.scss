@@ -13,12 +13,24 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559911580/AIG_volunteer_hype_still_vmldb0.png");
   background-position: center;
 }
-.forces {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559200954/RBl_Sugar_Still_eravav.png");
+.panerai {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1580063887/panerai_x_comsubin_lflysu.png");
+  background-position: center;
+}
+.for-love {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1580063503/070120_rbl_for_love_3_copy_sal8u1.png");
   background-position: center;
 }
 .football {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1559202103/RBL_Football_still_copy_j9395l.png");
+  background-position: top;
+}
+.tribute-ink {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1580067341/2019_rbl_tattoo_craig_daniell_10.1_copy_zqkrcq.png");
+  background-position: top;
+}
+.hcr {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1580063504/2019_hcr_advert_1_copy_wzpyp8.png");
   background-position: top;
 }
 .show-title {
@@ -43,6 +55,7 @@
   font-size: 14px;
   line-height: 28px;
   font-weight: 100;
+  max-width: 575px;
 }
 .h3-margin {
  @media (min-width: 768px) {

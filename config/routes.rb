@@ -2,9 +2,12 @@ Rails.application.routes.draw do
   resources "contacts", only: [:new, :create]
   root to: 'pages#home'
   get 'about', to: 'pages#about', as: :about
-  get 'endeavour', to: 'pages#endeavour', as: :endeavour
+  get 'operation-surf', to: 'pages#operation_surf', as: :operation_surf
   get 'aig', to: 'pages#aig', as: :aig
-  get 'sugar', to: 'pages#sugar', as: :sugar
-  get 'football', to: 'pages#football', as: :football
+  get 'panerai', to: 'pages#panerai', as: :panerai
+  get 'thank-you', to: 'pages#football', as: :football
+  get 'for-love', to: 'pages#for_love', as: :for_love
+  get 'tribute-ink', to: 'pages#tribute_ink', as: :tribute_ink
+  get 'hcr', to: 'pages#hcr', as: :hcr
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
