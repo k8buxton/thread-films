@@ -125,14 +125,14 @@ body {
   }
 }
 .project-container-panerai {
-  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1580063887/panerai_x_comsubin_lflysu.png");
-  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1580063887/panerai_x_comsubin_lflysu.png");
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1580063887/panerai_x_comsubin_lflysu.png");
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1580063886/panerai_x_comsubin_droneshot_k8uz3z.png");
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1580063886/panerai_x_comsubin_droneshot_k8uz3z.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1580063886/panerai_x_comsubin_droneshot_k8uz3z.png");
   background-position: center;
   &:hover {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1580063887/panerai_x_comsubin_lflysu.png");
-    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1580063887/panerai_x_comsubin_lflysu.png");
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1580063887/panerai_x_comsubin_lflysu.png");
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1580063886/panerai_x_comsubin_droneshot_k8uz3z.png");
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1580063886/panerai_x_comsubin_droneshot_k8uz3z.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1580063886/panerai_x_comsubin_droneshot_k8uz3z.png");
     cursor: pointer;
   }
 }
@@ -180,6 +180,7 @@ body {
 }
 .project-title {
   font-size: 24px;
+  display: none;
   font-weight: 800;
 }
 .project-strapline {
