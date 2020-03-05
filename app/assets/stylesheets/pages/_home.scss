@@ -16,7 +16,10 @@ body {
   font-weight: 100;
 }
 .full-plus-screen-height {
-  margin: 148px 0px;
+  @media (max-width: 576px) {
+    height: 150vh;
+  }
+  height: 100vh;
   font-weight: 100;
 }
 .text-container-home-top {
@@ -215,12 +218,4 @@ a:hover {
 .project-container:hover .mauricio-link {
   opacity: 1;
   font-size: 17px;
-}
-.homepage-logos {
-  margin: 72px 0px;
-  img {
-    width: 100%;
-    margin: auto;
-    -webkit-filter: grayscale(1);
-  }
 }
