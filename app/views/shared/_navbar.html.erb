@@ -1,20 +1,22 @@
-<%= link_to root_path do %>
-  <h1 class="nav-logo">Thread Films</h1>
+<h1 class="nav-logo">Thread Films</h1>
+<% if false %>
+  <%= link_to root_path do %>
+    <h1 class="nav-logo">Thread Films</h1>
+  <% end %>
+  <input id="burger" type="checkbox" style="display:none;"/>
+
+  <label for="burger">
+      <span></span>
+      <span></span>
+      <span></span>
+  </label>
+
+  <nav <% if current_page?(root_path) %>class="navbar-transparent"<% else %>class="navbar-black"<% end %>>
+    <ul>
+
+      <li><a href="/">Portfolio</a></li>
+      <li><a href="/about">About Us + Our Clients</a></li>
+      <li><a href="/contacts/new">Contact Us</a></li>
+    </ul>
+  </nav>
 <% end %>
-
-<input id="burger" type="checkbox" style="display:none;"/>
-
-<label for="burger">
-    <span></span>
-    <span></span>
-    <span></span>
-</label>
-
-<nav <% if current_page?(root_path) %>class="navbar-transparent"<% else %>class="navbar-black"<% end %>>
-  <ul>
-
-    <li><a href="/">Portfolio</a></li>
-    <li><a href="/about">About Us + Our Clients</a></li>
-    <li><a href="/contacts/new">Contact Us</a></li>
-  </ul>
-</nav>
