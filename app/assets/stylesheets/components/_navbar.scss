@@ -5,12 +5,7 @@
   z-index: 6;
 }
 .nav-logo-holding-page {
-  @media (min-width: 576px) {
-    width: 160px;
-  }
-  @media (max-width: 576px) {
-    width: 120px;
-  }
+  width: 160px;
 }
 body {
   font-family: Montserrat;
