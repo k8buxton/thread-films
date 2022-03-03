@@ -224,6 +224,24 @@ a:hover {
   background-image: -o-linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.4)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1646130323/endeavour_page_header_ijiegw.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.4)), url("https://res.cloudinary.com/dhcilq76q/image/upload/v1646130323/endeavour_page_header_ijiegw.jpg");
   background-position: top;
+  .socials {
+    @media (min-width: 576px) {
+      margin-top: 16px;
+    }
+    @media (max-width: 576px) {
+      margin-top: 10px;
+    }
+    a {
+      color: white !important;
+      opacity: 1;
+      transition: opacity .3s ease-out;
+      font-weight: 100;
+      font-size: 12px;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
 }
 .white-text-link {
   color: white;
